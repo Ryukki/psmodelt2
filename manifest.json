@@ -1,5 +1,5 @@
 {
-   "commerceSuiteVersion": "6.7.0.9",
+   "commerceSuiteVersion": "6.7.0.6",
    "extensions": [
        "optcustomerfacade",
    	   "mcc",
@@ -50,7 +50,10 @@
        "customsitetest",
        "customsiteinitialdata",
        "customsitestorefront",
-	   "hacfix"
+       "hacfix",
+       "y2ysyncbackoffice",
+       "y2ysync",
+       "deltadetection"	   
    ],
    "properties": [
         {
