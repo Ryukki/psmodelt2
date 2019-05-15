@@ -2,6 +2,7 @@
     "datahub_version" : "6.7.0.6",
     "extensions" : [
         "sapcoreconfiguration",
+        "y2ysync-datahub-ext",
  
         "sapcustomer-canonical",
         "sapcustomer-raw",
