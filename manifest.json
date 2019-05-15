@@ -106,7 +106,11 @@
         {
      	 "key":"hac.webroot",
      	 "value":"/hac"
-    	}
+    	},
+	{
+            "key":"y2ysync.datahub.url",
+            "value":"http://datahub:8080/datahub-webapp/v1/y2ysync/v60"
+        },
     ],
     "useConfig": {
         "properties": [
@@ -142,6 +146,10 @@
 		{
                     "name": "oauth2",
                     "contextPath": "/authorizationserver"
+                },
+		{
+                    "name": "y2ysync",
+                    "contextPath": "/y2ysync"
                 }
             ]
         },
