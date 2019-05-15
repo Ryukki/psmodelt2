@@ -110,7 +110,7 @@
 	{
             "key":"y2ysync.datahub.url",
             "value":"http://datahub:8080/datahub-webapp/v1/y2ysync/v60"
-        },
+        }
     ],
     "useConfig": {
         "properties": [
