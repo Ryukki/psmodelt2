@@ -46,7 +46,7 @@
 			</attributes>
 		</itemtype>
 -->
-		<itemtype code="BasfMedia" extends="CatalogUnawareMedia" jaloclass="de.hybris.platform.catalog.jalo.CatalogUnawareMedia" generate="false" singleton="false" jaloonly="false" autocreate="true">
+		<itemtype code="TestItemType" extends="Product" jaloclass="de.hybris.platform.catalog.jalo.CatalogUnawareMedia" generate="false" singleton="false" jaloonly="false" autocreate="true">
 			<attributes>
 				<attribute generate="true" autocreate="true" qualifier="checksum" type="java.lang.String">
 					<persistence type="property" qualifier=""/>
