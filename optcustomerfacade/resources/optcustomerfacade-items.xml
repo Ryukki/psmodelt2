@@ -46,23 +46,6 @@
 			</attributes>
 		</itemtype>
 -->
-		<itemtype code="Realm" extends="UserGroup" jaloclass="de.hybris.platform.jalo.user.UserGroup" generate="false" singleton="false" jaloonly="false" autocreate="true">
-			<attributes>
-				<attribute generate="true" autocreate="true" qualifier="code" type="java.lang.String">
-					<persistence type="property" qualifier=""/>
-					<modifiers read="true" write="true" search="true" encrypted="false" optional="false" removable="true" initial="true" unique="false" private="false" partof="false"/>
-				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="shortdescription" type="localized:java.lang.String">
-					<persistence type="property" qualifier=""/>
-					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-				</attribute>
-				<attribute generate="true" autocreate="true" redeclare="true" qualifier="uid" type="java.lang.String">
-					<persistence type="property" qualifier=""/>
-					<modifiers read="true" write="true" search="true" encrypted="false" optional="false" removable="true" initial="true" unique="true" private="false" partof="false"/>
-				</attribute>
-			</attributes>
-		</itemtype>	
-
 		<itemtype code="BasfMedia" extends="CatalogUnawareMedia" jaloclass="de.hybris.platform.catalog.jalo.CatalogUnawareMedia" generate="false" singleton="false" jaloonly="false" autocreate="true">
 			<attributes>
 				<attribute generate="true" autocreate="true" qualifier="checksum" type="java.lang.String">
@@ -77,52 +60,75 @@
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="realm" type="Realm">
-					<persistence type="property" qualifier=""/>
-					<modifiers read="true" write="true" search="true" encrypted="false" optional="false" removable="true" initial="false" unique="false" private="false" partof="false"/>
-				</attribute>
-			</attributes>
-		</itemtype>
-
-		<itemtype code="DocumentVersion" extends="BasfMedia" jaloclass="de.hybris.platform.catalog.jalo.CatalogUnawareMedia" generate="false" singleton="false" jaloonly="false" autocreate="true">
-			<attributes>
-				<attribute generate="true" autocreate="true" qualifier="endDate" type="java.util.Date">
+				<attribute generate="true" autocreate="true" qualifier="test1" type="localized:java.lang.String">
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="languages" type="LanguagesList">
-					<persistence type="property" qualifier=""/>
-					<modifiers read="true" write="true" search="true" encrypted="false" optional="false" removable="true" initial="false" unique="false" private="false" partof="false"/>
-				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="startDate" type="java.util.Date">
-					<persistence type="property" qualifier=""/>
-					<modifiers read="true" write="true" search="true" encrypted="false" optional="false" removable="true" initial="false" unique="false" private="false" partof="false"/>
-				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="version" type="java.lang.String">
+				<attribute generate="true" autocreate="true" qualifier="test2" type="localized:java.lang.String">
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
-				<attribute generate="true" autocreate="true" redeclare="true" qualifier="creationtime" type="java.util.Date">
-					<persistence type="cmp" qualifier="creationTimestampInternal"/>
-					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="customerTitle" type="localized:java.lang.String">
+				<attribute generate="true" autocreate="true" qualifier="test3" type="localized:java.lang.String">
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="keywords" type="java.lang.String">
+				<attribute generate="true" autocreate="true" qualifier="test4" type="localized:java.lang.String">
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="licenseEndDate" type="java.util.Date">
+				<attribute generate="true" autocreate="true" qualifier="test5" type="localized:java.lang.String">
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="link" type="java.lang.String">
+				<attribute generate="true" autocreate="true" qualifier="test6" type="localized:java.lang.String">
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="mediaComments" type="java.lang.String">
+				<attribute generate="true" autocreate="true" qualifier="test7" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test8" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test9" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test10" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test11" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test12" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test13" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test14" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test15" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test16" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test17" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test18" type="localized:java.lang.String">
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
