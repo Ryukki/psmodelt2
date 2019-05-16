@@ -48,18 +48,6 @@
 -->
 		<itemtype code="TestItemType" extends="Product" jaloclass="de.hybris.platform.catalog.jalo.CatalogUnawareMedia" generate="false" singleton="false" jaloonly="false" autocreate="true">
 			<attributes>
-				<attribute generate="true" autocreate="true" qualifier="checksum" type="java.lang.String">
-					<persistence type="property" qualifier=""/>
-					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-				</attribute>
-				<attribute generate="true" autocreate="true" redeclare="true" qualifier="code" type="java.lang.String">
-					<persistence type="property" qualifier=""/>
-					<modifiers read="true" write="false" search="true" encrypted="false" optional="false" removable="true" initial="true" unique="true" private="false" partof="false"/>
-				</attribute>
-				<attribute generate="true" autocreate="true" qualifier="name" type="localized:java.lang.String">
-					<persistence type="property" qualifier=""/>
-					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
-				</attribute>
 				<attribute generate="true" autocreate="true" qualifier="test1" type="localized:java.lang.String">
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
@@ -129,6 +117,18 @@
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
 				<attribute generate="true" autocreate="true" qualifier="test18" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test19" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test20" type="localized:java.lang.String">
+					<persistence type="property" qualifier=""/>
+					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
+				</attribute>
+				<attribute generate="true" autocreate="true" qualifier="test21" type="localized:java.lang.String">
 					<persistence type="property" qualifier=""/>
 					<modifiers read="true" write="true" search="true" encrypted="false" optional="true" removable="true" initial="false" unique="false" private="false" partof="false"/>
 				</attribute>
